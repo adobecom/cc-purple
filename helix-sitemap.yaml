@@ -1,0 +1,97 @@
+version: 1
+
+sitemaps:
+  website:
+    origin: https://www.adobe.com
+    lastmod: YYYY-MM-DD
+    default: en-US
+    languages:
+      us:
+        source: /cc-shared/assets/query-index.json
+        alternate: /{path}.html
+        destination: /cc-shared/assets/sitemap.xml
+        hreflang: en-US
+
+      au:
+        source: /au/cc-shared/assets/query-index.json
+        alternate: /au/{path}.html
+        destination: /au/cc-shared/assets/sitemap.xml
+        hreflang: en-AU
+
+      de:
+        source: /de/cc-shared/assets/query-index.json
+        alternate: /de/{path}.html
+        destination: /de/cc-shared/assets/sitemap.xml
+        hreflang: de-DE
+
+      es:
+        source: /es/cc-shared/assets/query-index.json
+        alternate: /es/{path}.html
+        destination: /es/cc-shared/assets/sitemap.xml
+        hreflang: es-ES
+
+      fr:
+        source: /fr/cc-shared/assets/query-index.json
+        alternate: /fr/{path}.html
+        destination: /fr/cc-shared/assets/sitemap.xml
+        hreflang: fr-FR
+
+      it:
+        source: /it/cc-shared/assets/query-index.json
+        alternate: /it/{path}.html
+        destination: /it/cc-shared/assets/sitemap.xml
+        hreflang: it-IT
+
+      jp:
+        source: /jp/cc-shared/assets/query-index.json
+        alternate: /jp/{path}.html
+        destination: /jp/cc-shared/assets/sitemap.xml
+        hreflang: ja-JP
+
+      kr:
+        source: /kr/cc-shared/assets/query-index.json
+        alternate: /kr/{path}.html
+        destination: /kr/cc-shared/assets/sitemap.xml
+        hreflang: ko-KR
+        
+      ru:
+        source: /ru/cc-shared/assets/query-index.json
+        alternate: /ru/{path}.html
+        destination: /ru/cc-shared/assets/sitemap.xml
+        hreflang: ru-RU
+
+      hk_zh:
+        source: /hk_zh/cc-shared/assets/query-index.json
+        alternate: /hk_zh/{path}.html
+        destination: /hk_zh/cc-shared/assets/sitemap.xml
+        hreflang: zh-HK 
+
+      tw:
+        source: /tw/cc-shared/assets/query-index.json
+        alternate: /tw/{path}.html
+        destination: /tw/cc-shared/assets/sitemap.xml
+        hreflang: zh-TW
+        
+      nl:
+        source: /nl/cc-shared/assets/query-index.json
+        alternate: /nl/{path}.html
+        destination: /nl/cc-shared/assets/sitemap.xml
+        hreflang: nl-NL
+
+      pl:
+        source: /pl/cc-shared/assets/query-index.json
+        alternate: /pl/{path}.html
+        destination: /pl/cc-shared/assets/sitemap.xml
+        hreflang: pl-PL 
+
+      tr:
+        source: /tr/cc-shared/assets/query-index.json
+        alternate: /tr/{path}.html
+        destination: /tr/cc-shared/assets/sitemap.xml
+        hreflang: tr-TR 
+
+      uk:
+        source: /uk/cc-shared/assets/query-index.json
+        alternate: /uk/{path}.html
+        destination: /uk/cc-shared/assets/sitemap.xml
+        hreflang: en-GB     
